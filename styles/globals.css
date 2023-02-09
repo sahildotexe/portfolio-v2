@@ -38,13 +38,29 @@ main {
     font-weight: 600;
 }
 
-#work:hover .name, #hustles:hover .name, #writings:hover .name, #socials:hover .name{
-    animation: color-change 5s infinite;
+#work:hover .name {
+    color: red;
 }
+
+#hustles:hover .name{
+color: blue;}
+ 
+#writings:hover .name {
+color: orange;
+}
+ 
+#socials:hover .name{
+    color: green;
+}
+ 
  
 #my-name {
     animation: color-change2 5s infinite;
 
+}
+
+.social-links {
+    animation: color-change7 5s infinite;
 }
   @keyframes color-change {
     0% { color: red; }
@@ -62,3 +78,10 @@ main {
     100% { color: blue; }
   }
 
+  @keyframes color-change7 {
+    0% { color: green; }
+    25% { color: orange; }
+    50% {color: blue;}
+    75% {color: red ;}
+    100% { color: green; }
+  }
