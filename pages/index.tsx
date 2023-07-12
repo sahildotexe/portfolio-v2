@@ -16,7 +16,7 @@ export default function Home() {
         <div className='pt-8' id='work'>
          <div className='text-2xl name pb-4'>work</div>
          <div>
-          <div className='text-md md:text-lg'>(present) co-founder, <Link href='http://theopportunitiesportal.com/' className='underline' target='_blank' > top.</Link></div>
+          <div className='text-md md:text-lg'>(present) product intern, <Link href='http://adobe.com/' className='underline' target='_blank' > adobe..</Link></div>
           <div className='text-md md:text-lg'>(prev) technical writer at <Link href='https://buildspace.so/' className='underline' target='_blank' > buildspace.</Link></div>
           <div className='text-md md:text-lg'>(prev) full stack dev at <Link href='https://www.linkedin.com/company/esqb-tech/' target="_blank" className='underline'>esqb technologies.</Link> </div>
           <div className='text-md md:text-lg'>(prev) full stack dev at <Link href='https://www.linkedin.com/company/the-pastel-leaf/' target='_blank' className='underline'> the pastel leaf.</Link></div>
