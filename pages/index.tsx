@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
       <div className='mt-6 pt-10 grid justify-items-center'>
-        <div className='text-md opacity-50'> built with love in next and tailwind. </div>
+        <div className='text-md opacity-50'> built in next and tailwind. </div>
       </div>
       </div>
    
