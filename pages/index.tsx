@@ -21,7 +21,11 @@ export default function Home() {
           <div className='text-md md:text-lg'>(prev) full stack dev at <Link href='https://www.linkedin.com/company/esqb-tech/' target="_blank" className='underline'>esqb technologies.</Link> </div>
           <div className='text-md md:text-lg'>(prev) full stack dev at <Link href='https://www.linkedin.com/company/the-pastel-leaf/' target='_blank' className='underline'> the pastel leaf.</Link></div>
           <div className='text-md md:text-lg'>(prev) full stack dev at <Link href='https://www.linkedin.com/company/movio-mobility/' target='_blank'  className='underline'> movio mobility.</Link></div>
+          <Link className='text-md md:text-lg underline' href="/resume.pdf">
+              <p>check out my resume</p>
+            </Link>
          </div>
+        
         </div>
         <div className='pt-8' id='hustles'>
          <div className='text-2xl name pb-4'>side hustles</div>
@@ -69,6 +73,7 @@ export default function Home() {
           <div className='text-md md:text-lg'>
           connect with me on <Link href='https://twitter.com/sahilkaling_' target='_blank' className='underline social-links'>twitter,</Link> <Link href='https://www.instagram.com/sahilkaling/' target='_blank' className='underline social-links'>instagram</Link> or send me a mail at <Link href='mailto:sahilkaling@gmail.com' className='underline social-links'>sahilkaling@gmail.com</Link>. 
           </div> 
+           
         </div>
       </div>
       <div className='mt-6 pt-10 grid justify-items-center'>
